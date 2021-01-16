@@ -12,7 +12,8 @@ namespace Metotlar
                 Id = 1,
                 Ad = "Elma",
                 Fiyat = 15,
-                Aciklama = "Amasya elması"
+                Aciklama = "Amasya elması",
+                StokAdedi = 10
             };
 
             Urun urun2 = new Urun()
@@ -20,7 +21,8 @@ namespace Metotlar
                 Id = 2,
                 Ad = "Karpuz",
                 Fiyat = 80,
-                Aciklama = "Diyarbakır karpuzu"
+                Aciklama = "Diyarbakır karpuzu",
+                StokAdedi = 5
             };
 
             //Urun[] urunler = new Urun[]
