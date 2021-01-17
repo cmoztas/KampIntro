@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar", "Metotlar\Metotl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matematik", "Matematik\Matematik.csproj", "{DBBF6219-53B2-436C-BE02-5E8666E5F7A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefKeyword", "RefKeyword\RefKeyword.csproj", "{3A726C0A-412E-484F-A5A7-6CFD609DE145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutKeyword", "OutKeyword\OutKeyword.csproj", "{431A9A2E-E76C-4B3E-A756-F02B1BA22A73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{DBBF6219-53B2-436C-BE02-5E8666E5F7A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBBF6219-53B2-436C-BE02-5E8666E5F7A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBBF6219-53B2-436C-BE02-5E8666E5F7A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A726C0A-412E-484F-A5A7-6CFD609DE145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A726C0A-412E-484F-A5A7-6CFD609DE145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A726C0A-412E-484F-A5A7-6CFD609DE145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A726C0A-412E-484F-A5A7-6CFD609DE145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431A9A2E-E76C-4B3E-A756-F02B1BA22A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431A9A2E-E76C-4B3E-A756-F02B1BA22A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431A9A2E-E76C-4B3E-A756-F02B1BA22A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431A9A2E-E76C-4B3E-A756-F02B1BA22A73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
