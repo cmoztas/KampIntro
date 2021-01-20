@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar", "Metotlar\Metotl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matematik", "Matematik\Matematik.csproj", "{DBBF6219-53B2-436C-BE02-5E8666E5F7A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefKeyword", "RefKeyword\RefKeyword.csproj", "{3A726C0A-412E-484F-A5A7-6CFD609DE145}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefKeyword", "RefKeyword\RefKeyword.csproj", "{3A726C0A-412E-484F-A5A7-6CFD609DE145}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutKeyword", "OutKeyword\OutKeyword.csproj", "{431A9A2E-E76C-4B3E-A756-F02B1BA22A73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutKeyword", "OutKeyword\OutKeyword.csproj", "{431A9A2E-E76C-4B3E-A756-F02B1BA22A73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1", "OOP1\OOP1.csproj", "{F6898AFA-8381-4187-B2D3-A8B104A0ADE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{431A9A2E-E76C-4B3E-A756-F02B1BA22A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{431A9A2E-E76C-4B3E-A756-F02B1BA22A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{431A9A2E-E76C-4B3E-A756-F02B1BA22A73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6898AFA-8381-4187-B2D3-A8B104A0ADE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6898AFA-8381-4187-B2D3-A8B104A0ADE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6898AFA-8381-4187-B2D3-A8B104A0ADE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6898AFA-8381-4187-B2D3-A8B104A0ADE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
