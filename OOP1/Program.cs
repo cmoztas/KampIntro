@@ -6,18 +6,28 @@ namespace OOP1
     {
         static void Main(string[] args)
         {
-            ProductManager pm = new ProductManager();
+            ProductManager productManager = new ProductManager();
 
-            Product product1 = new Product()
+            Product product1 = new Product
             {
                 Id = 1,
-                Name = "Elma",
-                Price = 10,
-                Description = "Yeşil Elma"
+                CategoryId = 2,
+                ProductName = "Masa",
+                UnitPrice = 500,
+                UnitsInStock = 3
             };
 
-            pm.Add(product1);
-            Console.WriteLine(product1.Name);
+            Product product2 = new Product
+            {
+                Id = 2,
+                CategoryId = 5,
+                ProductName = "Kalem",
+                UnitPrice = 35,
+                UnitsInStock = 5
+            };
+
+            productManager.Add(product1);   
+            Console.WriteLine(product1.ProductName);
         }
     }
 }

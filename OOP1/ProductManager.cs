@@ -8,12 +8,12 @@ namespace OOP1
     {
         public void Add(Product product)
         {
-            Console.WriteLine($"{product.Name} eklendi.");
+            Console.WriteLine($"{product.ProductName} eklendi.");
         }
 
         public void Update(Product product)
         {
-            Console.WriteLine($"{product.Name} güncellendi.");
+            Console.WriteLine($"{product.ProductName} güncellendi.");
         }
         
 
