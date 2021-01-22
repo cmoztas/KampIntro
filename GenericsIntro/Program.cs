@@ -10,9 +10,9 @@ namespace GenericsIntro
 
             Console.WriteLine(myList.Length);
 
-            myList.Add("Anan");
-            myList.Add("Bacın");
-            myList.Add("Gardaşın");
+            myList.Add("Çağkan");
+            myList.Add("Mert");
+            myList.Add("Selin");
 
             Console.WriteLine(myList.Length);
 
