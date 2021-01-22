@@ -2,9 +2,9 @@
 
 namespace Donguler
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             string kurs1 = "Yazılım Geliştirici Yetiştirme Kampı";
             string kurs2 = "Programlamaya Başlangıç İçin Temel Kurs";

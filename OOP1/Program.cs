@@ -2,9 +2,9 @@
 
 namespace OOP1
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             ProductManager productManager = new ProductManager();
 
@@ -26,7 +26,7 @@ namespace OOP1
                 UnitsInStock = 5
             };
 
-            productManager.Add(product1);   
+            productManager.Add(product1);
             Console.WriteLine(product1.ProductName);
         }
     }

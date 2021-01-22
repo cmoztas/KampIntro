@@ -2,9 +2,9 @@
 
 namespace KampIntro
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // type safety - tip güvenliği
             // Do not repeat yourself - Kendini Tekrarlama
@@ -16,11 +16,11 @@ namespace KampIntro
             double dolarDun = 7.35;
             double dolarBugun = 7.45;
 
-            if (dolarDun>dolarBugun)
+            if (dolarDun > dolarBugun)
             {
                 Console.WriteLine("Azalış butonu");
             }
-            else if (dolarDun<dolarBugun)
+            else if (dolarDun < dolarBugun)
             {
                 Console.WriteLine("Artış butonu");
             }

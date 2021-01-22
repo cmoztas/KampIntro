@@ -2,9 +2,9 @@
 
 namespace RefKeyword
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             int number1 = 20;
             int number2 = 100;
@@ -15,7 +15,7 @@ namespace RefKeyword
             Console.WriteLine(number1);
         }
 
-        static int Add(ref int number1, int number2)
+        private static int Add(ref int number1, int number2)
         {
             number1 = 30;
             return number1 + number2;

@@ -7,11 +7,14 @@ namespace Koleksiyonlar
     {
         private static void Main(string[] args)
         {
-            List<string> isimler = new List<string>()
+            List<string> isimler = new List<string>
             {
-                "Çağkan", "Selin", "Ece", "Timuçin"
+                "Çağkan",
+                "Selin",
+                "Ece",
+                "Timuçin",
+                "Kağan"
             };
-            isimler.Add("Kağan");
 
             foreach (string birey in isimler)
             {
