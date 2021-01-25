@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 
 namespace MyDictionary
 {
@@ -29,12 +28,11 @@ namespace MyDictionary
             return _values[index];
         }
 
-        private void IncreaseArray (ref TKey[] keys, ref TValue[] values)
+        private void IncreaseArray(ref TKey[] keys, ref TValue[] values)
         {
             SyncArray<TKey>.IncreaseSize(ref keys);
             SyncArray<TValue>.IncreaseSize(ref values);
         }
-        
 
         public int Count => _keys.Length;
     }
