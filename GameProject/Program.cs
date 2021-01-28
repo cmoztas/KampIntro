@@ -11,15 +11,14 @@ namespace GameProject
 
             //GamerManager gamerManager = new GamerManager(new FakeUserValidationManager());
             ProductManager productManager = new ProductManager(new OrderManager());
-
-            gamerManager.Add(new Gamer()
+            Gamer gamer1 = new Gamer()
             {
                 Id = 1,
                 FirstName = "Çağkan Mert",
                 Lastname = "Öztaş",
                 BirthDate = new DateTime(1993, 10, 27),
                 IdentityNumber = "12386749234"
-            });
+            };
 
             Product product1 = new Product()
             {
@@ -28,14 +27,11 @@ namespace GameProject
                 UnitPrice = 5
             };
 
-            productManager.Buy(product1,
-                new Gamer() { Id = 2, FirstName = "Çağkan Mert", Lastname = "Öztaş", BirthDate = new DateTime(1993, 10, 27), IdentityNumber = "1983275498345" },
-                null, 3);
+            gamerManager.Add(gamer1);
 
-            productManager.Buy(product1,
-                new Gamer() { Id = 2, FirstName = "Çağkan Mert", Lastname = "Öztaş", BirthDate = new DateTime(1993, 10, 27), IdentityNumber = "1983275498345" }, 
-                new Campaign() { CampaignDetail = "%15 indirim", DiscountValue = 15, Id = 1 }, 
-                3);
+            productManager.Buy(product1, gamer1, null, 3);
+
+            productManager.Buy(product1, gamer1, new Campaign() { CampaignDetail = "%15 indirim", DiscountValue = 15, Id = 1 }, 3);
         }
     }
 }
