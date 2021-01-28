@@ -28,7 +28,7 @@ namespace GameProject
             }
             else
             {
-                Console.WriteLine($"{product.Name}, {gamer.FirstName} adlı %{campaign.DiscountValue} indirimle satıldı");
+                Console.WriteLine($"{product.Name}, {gamer.FirstName} adlı oyuncuya %{campaign.DiscountValue} indirimle satıldı");
             }
         }
     }
